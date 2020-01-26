@@ -19,6 +19,9 @@ Here you can find a frequently updated compilation of resources for beginners wi
 3. [**Vaa3D**](https://alleninstitute.org/what-we-do/brain-science/research/products-tools/vaa3d/) is close to the metal C/C++ and designed to be fast for visualizing and analyzing terabyte size datasets and connected with the Allen Brain Institute.  
 4. Why choose? You can also aggregate the different tools above or anything you can run from the command line in software like [**KNIME**](https://www.knime.com/community/image-processing) and [**Icy**](http://icy.bioimageanalysis.org/).
 
+If you're coming at this having trained as a biologist and the number of options feels overwhelming, it's ok. The variety is similar to the variety of protocols you would have to choose from and optimize to do any number of things in a wet lab. There's no way for you to overcome that other than to just play around with the different options. 
+
+
 ### Stages of adjusting to big image data
 **Sample prep worked out and the images looked beautiful on the microscope. Now what?** 
 

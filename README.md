@@ -1,5 +1,5 @@
 # what-big-images-you-have
-Here you can find a frequently updated compilation of resources for beginners wishing to enter the realm of open source visualization and analysis of scary big n-dimensional microscopy image data :wolf: . Suggestions welcome... just start an issue. 
+Here you can find a frequently updated compilation of resources for beginners wishing to enter the realm of open source visualization and analysis of scary big n-dimensional microscopy image data :wolf: . Suggestions welcome... just start an issue, or if you'd like to contribute that's great! 
 
 ## tl:dr
 1. Join [**Image.sc**](https://forum.image.sc/) where a welcoming and responsive community of open software developers and users will help you with all. the. questions. :100: :100: :100:  

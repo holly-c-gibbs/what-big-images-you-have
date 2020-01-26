@@ -1,0 +1,41 @@
+At frame 0:
+- change rendering algorithm to combined transparency 
+- change bounding box visibility to off
+
+From frame 0 to frame 50:
+- rotate by 90 degrees vertically 
+
+From frame 50 to frame 100:
+- rotate by 90 degrees horizontally 
+
+From frame 100 to frame 150:
+- rotate by 90 degrees vertically 
+
+At frame 150:
+- change channel 1 weight to 0
+- change rendering algorithm to maximum intensity  
+- change channel 2 intensity to (0, 40000, 0.001)
+- change channel 2 alpha to (0, 40000, 0.8)
+
+From frame 150 to frame 185:
+- zoom by a factor of 2
+- rotate by -90 degrees horizontally 
+
+From frame 185 to frame 210:
+- zoom by a factor of 0.5
+
+At frame 210:
+- change all channels' front clipping to 0
+- change channel 1 weight to 1
+- change channel 2 intensity to (0, 15000, 1)
+- change channel 2 alpha to (0, 15000, 2)
+- change rendering algorithm to combined transparency 
+
+From frame 210 to frame 260:
+- rotate by 90 degrees horizontally 
+
+From frame 260 to frame 460:
+- rotate by -90 degrees vertically 
+
+From frame 460 to frame 510:
+- change all channels' front clipping to -357

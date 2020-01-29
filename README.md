@@ -1,11 +1,11 @@
 # what-big-images-you-have
-Here you can find a frequently updated compilation of beginner resources for open source visualization and analysis of scary big n-dimensional microscopy image data :wolf: . Suggestions welcome... just start an issue, or if you'd like to contribute that's great! 
+Here you can find a frequently updated compilation of beginner resources for open source visualization and analysis of scary big n-dimensional microscopy image data :wolf: . Written for scientists without easy access to or experience with distributed/cloud computing resources. Suggestions welcome... just start an issue, or if you'd like to contribute that's great! 
 
 ## tl:dr
 1. Join [**Image.sc**](https://forum.image.sc/) where a welcoming and responsive community of open software developers and users will help you with all. the. questions. :100: :100: :100:  
 2. **Even with the best hardware and the most nodes, for large datasets you need smart software design.** 
 3. Luckily, the bioimage analysis community has forseen the :boom: of image data and the :poop: we might step in. 
-4. These heros are working tirelessly to create and/or integrate the best image processing libraries into platforms that are accessible to life science researchers so we can get things done. :muscle:  
+4. These heros are working tirelessly to create and/or integrate the best image processing libraries into platforms that are accessible to life science researchers so we can get things done. :muscle: There's really no reason to be scared... we're not the first scientific community having to deal with big data problems.
 5. **These tools are constantly evolving, and if there's a feature you wish you had... tell the community!** :speaking_head:
 6.  Realize this is going to be hard, but you can do it (for science)! :nerd_face: 
 7. **But don't make things harder than they need to be. Acquire data at the lowest resolution that adequately addresses your research problem. Pilot all your pipelines using subsets of data.**   
@@ -25,8 +25,12 @@ If you're coming at this having trained as a biologist and the number of options
 ### Stages of adjusting to big image data
 **Sample prep worked out and the images looked beautiful on the microscope. Now what?** 
 
-#### Just please let me get my data from the acquisition machine.
+#### Just please let me get my data from the acquisition machine. :microscope:
 1. Splurge for a solid-state external drive (probably exFAT formatted, should work on Windows/Mac/Linux) of reasonable size (at least 256 GB) if there is not a fast network connection to send over.
+
+#### Just please let me read this proprietary file format. :floppy_disk:
+1. The Open Microscopy Environments project has resulted in a fantastic tool for reading the image data and importantly also the metadata from most proprietary microscope file types called the [**Bio-Formats**](https://www.openmicroscopy.org/bio-formats/downloads/) importer/library. Perhaps the easiest way to use this tool to open your image data currently is as a FIJI plugin, but it also can be used with Matlab/Octave or from the command line, and there is a python interface to Bio-Formats [**here**](https://pythonhosted.org/python-bioformats/) thanks to the Broad Institute.  
+
 #### Just please let me see my data :eyes: 
 1. If your dataset can fit in the GPU memory, [**ClearVolume**](https://clearvolume.github.io/) is :fire:.
 2. If your dataset is bigger than the GPU or even CPU memory, [**BigDataViewer**](https://imagej.net/BigDataViewer) quickly renders arbitrary slices from multidimensional data sets and has a demo version of a fast volume viewer. [**Napari**](https://github.com/napari/napari) is :zap: fast and if you prefer Python, a fantastic interactive tool with a lot of momentum. [**Vaa3D**](https://alleninstitute.org/what-we-do/brain-science/research/products-tools/vaa3d/) was my volume rendering workhorse during grad school and is still :star:. 
